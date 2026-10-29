@@ -1,0 +1,16 @@
+appVersion: v1
+kind: Pod
+metadata: 
+   name: labels
+   labels:
+     project: roboshop
+     environment: dev
+     purpose: poc
+spec:
+  containers:
+   - name: nginx
+     image: nginx
+   - name: almalinux
+     image: almalinux:9
+       
+   
