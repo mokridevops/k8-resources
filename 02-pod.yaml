@@ -9,4 +9,4 @@ metadata:
 spec:
  containers:
  - name: nginx # container name
-   image: nginx1 # by default it will get the image from docker hub
+   image: nginx # by default it will get the image from docker hub
