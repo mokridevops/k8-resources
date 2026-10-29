@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+   name: ConfigMap
+   env:
+     - name: project
+       value: roboshop
+     - name: course
+       value: it
+     - name: duration
+       value: 150 hours
