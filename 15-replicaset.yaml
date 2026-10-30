@@ -22,7 +22,7 @@ template:
      project: roboshop
      tier: frontend
      component: frontend
-spec:
-  containers:
-    - name: nginx
-      image: nginx
+  spec:
+    containers:
+      - name: nginx
+        image: nginx
