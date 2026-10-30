@@ -16,13 +16,13 @@ spec:
       tier: frontend
       component: frontend
   # pod definition
-template:
-  metadata:
-    labels:
-     project: roboshop
-     tier: frontend
-     component: frontend
-  spec:
-    containers:
-      - name: nginx
-        image: nginx
+  template:
+    metadata:
+      labels:
+      project: roboshop
+      tier: frontend
+      component: frontend
+    spec:
+      containers:
+        - name: nginx
+          image: nginx
