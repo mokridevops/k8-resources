@@ -19,9 +19,9 @@ spec:
   template:
     metadata:
       labels:
-      project: roboshop
-      tier: frontend
-      component: frontend
+        project: roboshop
+        tier: frontend
+        component: frontend
     spec:
       containers:
         - name: nginx
