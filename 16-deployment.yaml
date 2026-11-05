@@ -19,6 +19,7 @@ spec:
   # Pod      
   template:
     metadata:
+     labels:
       project: roboshop
       tier: frontend
       component: frontend
