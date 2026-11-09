@@ -14,7 +14,7 @@ spec:
       labels:
         name: fluentd-elasticsearch
     spec:
-      conatiners:
+      containers:
         - name: fluentd-elasticsearch
           image: quay.io/fluentd_elasticsearch/fluentd:v3.4.0
           resources:
